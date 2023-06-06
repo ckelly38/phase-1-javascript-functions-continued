@@ -11,7 +11,7 @@ function mondayWork(value = "go to the office")
 function wrapAdjective(wrapchar = "*")
 {
     const mystr = "You are ";
-    return inner = function (value = "special") {
+    return function (value = "special") {
         return mystr + wrapchar + value + wrapchar + "!";
     };
 }
